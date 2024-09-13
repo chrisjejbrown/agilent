@@ -12,3 +12,7 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+footer {background-color:#222222 ; height: 440px;}
+footer ul {float: left;}
+footer .footer ul a:any-link {list-style-type: disc; color: #ffffff;}
+.footer p {color: #FFFFFF}
