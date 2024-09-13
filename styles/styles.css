@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --text-color: #202020;
+  --text-color: #303030;
   --link-color: rgb(35, 82, 124);
   --link-hover-color: Invalid input color;
   --background-color: #ffffff;
@@ -87,7 +87,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;

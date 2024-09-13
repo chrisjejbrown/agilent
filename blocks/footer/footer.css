@@ -13,6 +13,7 @@ footer .footer p {
   margin: 0;
 }
 footer {background-color:#222222 ; height: 440px;}
-footer ul {float: left;}
-footer .footer ul a:any-link {list-style-type: none; color: #ffffff;}
+footer ul {float: left; padding-inline-start: 0px;}
+footer .footer ul a:any-link { color: #ffffff;}
+.footer li{list-style-type: none;}
 .footer p {color: #FFFFFF}
