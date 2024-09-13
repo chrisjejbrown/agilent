@@ -17,3 +17,4 @@ footer ul {float: left; padding-inline-start: 0px;}
 footer .footer ul a:any-link { color: #ffffff;}
 .footer li{list-style-type: none;}
 .footer p {color: #FFFFFF}
+.footer picture img {height: fit-content !important;}
