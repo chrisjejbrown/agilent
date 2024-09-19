@@ -33,7 +33,8 @@
       "teaser",
       "blockquote",
       "embed",
-      "carousel"
+      "carousel",
+      "docsearch"
     ]
   },
   {
