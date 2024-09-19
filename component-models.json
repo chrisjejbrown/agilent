@@ -275,5 +275,13 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "docsearch",
+    "fields": [
+      {
+
+      }
+    ]
   }
 ]
