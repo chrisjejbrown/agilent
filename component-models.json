@@ -282,7 +282,7 @@
       {
         "component": "text-input",
         "name": "text",
-        "value": "",
+        "value": "Input a document ID",
         "label": "Slug",
         "valueType": "string"
       }
