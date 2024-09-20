@@ -27,7 +27,7 @@
       "button",
       "title",
       "hero",
-      "docsearch",
+      "document-search",
       "cards",
       "columns",
       "content-fragment",
@@ -35,8 +35,7 @@
       "teaser",
       "blockquote",
       "embed",
-      "carousel",
-      "docsearch"
+      "carousel"
     ]
   },
   {
