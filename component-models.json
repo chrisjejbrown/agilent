@@ -277,13 +277,13 @@
     ]
   },
   {
-    "id": "docsearch",
+    "id": "document-search",
     "fields": [
       {
         "component": "text-input",
         "name": "text",
-        "value": "Input a document ID",
-        "label": "Slug",
+        "value": "Label for document search input field",
+        "label": "Label for document search input field",
         "valueType": "string"
       }
     ]
