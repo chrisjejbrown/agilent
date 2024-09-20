@@ -1,7 +1,8 @@
 {
   "mappings": [
-    "/content/agilent-edge-delivery/:/",
-    "/content/agilent-edge-delivery/configuration:/.helix/config.json",
-    "/content/agilent-edge-delivery/configuration:/.resource/sw.js"
+    "/content/AdobeAgilentPOC/:/",
+    "/content/AdobeAgilentPOC/configuration:/.helix/config.json",
+    "/content/AdobeAgilentPOC/configuration:/.resource/sw.js"
   ]
 }
+AdobeAgilentPOC
