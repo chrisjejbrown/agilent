@@ -42,7 +42,7 @@
     "id": "cards",
     "components": [
       "card",
-      "docsearch"
+      "document-search"
     ]
   },
   {
