@@ -1,10 +1,6 @@
 mountpoints:
-  # /: https://adobe.sharepoint.com/:f:/r/sites/Solution-LedMSCTeam/Shared%20Documents/General/Edge%20Delivery%20Projects/sol-sc-boilerplate-xwalk
   /:
     url: "https://author-p140874-e1441196.adobeaemcloud.com//bin/franklin.delivery/chrisjejbrown/agilent/main"
     type: "markup"
     suffix: ".html"
-/:
-    url: "https://publish-p140874-e1441196.adobeaemcloud.com//bin/franklin.delivery/chrisjejbrown/agilent/main"
-    type: "markup"
-    suffix: ".html"
+
