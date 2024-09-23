@@ -189,5 +189,17 @@ async function loadPage() {
   await loadLazy(document);
   loadDelayed();
 }
+function createEl(tagName, attributes, text) {
+  const element = document.createElement(tagName);
+  if (attributes) {
+    for (const attr in attributes) {
+      element[attr] = attributes[attr];
+    }
+  }
+  if (text) {
+    element.textContent = text;
+  }
+  return element;
+}
 
 loadPage();
