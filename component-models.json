@@ -258,7 +258,7 @@
     ]
   },
   {
-    "id": "slide",
+    "id": "slide",  
     "fields": [
       {
         "component": "reference",
