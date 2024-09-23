@@ -189,17 +189,28 @@ async function loadPage() {
   await loadLazy(document);
   loadDelayed();
 }
-export function createEl(tagName, attributes, text) {
-  const element = document.createElement(tagName);
-  if (attributes) {
-    for (const attr in attributes) {
-      element[attr] = attributes[attr];
+ 
+export function createEl(name, attributes = {}, content = '', parentEl = null) {
+  const el = document.createElement(name);
+  Object.keys(attributes).forEach((key) => {
+    el.setAttribute(key, attributes[key]);
+  });
+  if (content) {
+    if (typeof content === 'string') {
+      el.innerHTML = content;
+    } else if (content instanceof NodeList) {
+      content.forEach((itemEl) => {
+        el.append(itemEl);
+      });
+    } else {
+      el.append(content);
     }
   }
-  if (text) {
-    element.textContent = text;
+  if (parentEl) {
+    parentEl.append(el);
   }
-  return element;
+  return el;
 }
+ 
 
 loadPage();
