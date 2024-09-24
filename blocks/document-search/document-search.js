@@ -47,7 +47,7 @@ export default async function decorate(blockEl) {
 
 const host = (window.location.href.includes('localhost')) ? 'tc48z2mdi2.execute-api.us-east-1.amazonaws.com' : 'api.agilentpoc.cazzaran.com';
 async function findDocument(part, lot) {
-  const req = await fetch(`https://${host}/poc/search?part=${part}&lot=${lot}`, {
+  const req = await fetch(`/api/search?part=${part}&lot=${lot}`, {
     credentials: "include",
     headers: {
       "Accept": "application/json",
