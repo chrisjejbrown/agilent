@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: "https://author-p140874-e1441196.adobeaemcloud.com//bin/franklin.delivery/chrisjejbrown/main"
+    url: "https://author-p140874-e1441196.adobeaemcloud.com//bin/franklin.delivery/chrisjejbrown/agilent/main"
     type: "markup"
     suffix: ".html"
 
