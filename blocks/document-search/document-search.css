@@ -16,7 +16,7 @@
 
 .document-search {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin: 30px;
 }
@@ -29,10 +29,33 @@
 
 .document-search #search-form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
   gap: 20px;
+}
+
+@media (width >= 900px) {
+  .document-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .document-search .search-form-container {
+    padding: 20px;
+    border: 1px solid darkgray;
+    background-color: #f1f1f1;
+  }
+
+  .document-search #search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
 }
 
 .document-search #search-form :is(input, button) {
