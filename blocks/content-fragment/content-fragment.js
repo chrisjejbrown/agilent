@@ -1,5 +1,5 @@
 // put your AEM publish address here
-const AEM_HOST = 'https://publish-p99452-e916802.adobeaemcloud.com';
+const AEM_HOST = 'https://publish-p107109-e1000961.adobeaemcloud.com';
 
 export default function decorate(block) {
   const slugDiv = block.querySelector('div:nth-child(1)');
