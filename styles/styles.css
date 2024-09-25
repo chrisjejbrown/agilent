@@ -18,10 +18,6 @@
   --background-color: #ffffff;
   --overlay-background-color: #eeeeee;
   --highlight-background-color: #cccccc;
-  --link-color: #000514;
---background-color: #ffffff;
---overlay-background-color: #eeeeee;
---highlight-background-color: #cccccc;
 
   /* fonts */
   --heading-font-family: Figtree, Arial, Helvetica;
@@ -44,17 +40,6 @@
 
   /* nav height */
   --nav-height: 124px;
-
-  --heading-font-size-xxl: 54px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 36px;
-  --heading-font-size-m: 25px;
-  --heading-font-size-s: 21px;
-  --heading-font-size-xs: 17px;
-  --body-font-size-xxl: 22px;
-  --body-font-size-xl: 18px;
-  --body-font-size-l: 16px;
-  --body-font-size-m: 14px;
 }
 
 @font-face {
@@ -173,7 +158,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
-  background-color: #ea1b14 !important;
+  background-color: var(--link-color);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -242,5 +227,3 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
-
-main .section:nth-child(odd) {background-color: #000000; color: #ffffff; !important}

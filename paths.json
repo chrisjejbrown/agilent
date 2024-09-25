@@ -3,9 +3,6 @@
     "/content/AdobeAgilentPOC/:/",
     "/content/AdobeAgilentPOC/configuration:/.helix/config.json",
     "/content/AdobeAgilentPOC/configuration:/.resource/sw.js",
-    "/content/agilentedgedelivery/:/",
-    "/content/agilentedgedelivery/configuration:/.helix/config.json",
-    "/content/agilentedgedelivery/configuration:/.resource/sw.js"
   ]
 
 }
