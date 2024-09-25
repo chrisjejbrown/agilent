@@ -4,3 +4,7 @@ mountpoints:
     type: "markup"
     suffix: ".html"
 
+  /:
+    url: "https://author-p107109-e1000961.adobeaemcloud.com//bin/franklin.delivery/chrisjejbrown/agilent/main"
+    type: "markup"
+    suffix: ".html"
